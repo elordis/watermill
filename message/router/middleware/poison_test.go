@@ -2,14 +2,13 @@ package middleware_test
 
 import (
 	"context"
+	go_errors "errors"
 	"testing"
 	"time"
 
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill/message/subscriber"
 	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
-
-	"github.com/hashicorp/go-multierror"
 
 	"github.com/ThreeDotsLabs/watermill/message"
 
@@ -191,11 +190,8 @@ func TestPoisonQueue_handler_failing_publisher_failing(t *testing.T) {
 				msg,
 			)
 
-			require.IsType(t, &multierror.Error{}, err)
-			multierr := err.(*multierror.Error)
-
 			// publisher failed, can't hide the error anymore
-			assert.Equal(t, errFailed, errors.Cause(multierr.WrappedErrors()[1]))
+			assert.True(t, go_errors.Is(err, errFailed))
 
 			// can't really expect any produced messages
 			assert.Empty(t, produced)
