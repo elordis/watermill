@@ -3,8 +3,8 @@ package cqrs
 import (
 	"encoding/json"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/message"
 )
 
 type JSONMarshaler struct {

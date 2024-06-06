@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/components/fanin"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/components/fanin"
+	"github.com/elordis/watermill/message"
+	"github.com/elordis/watermill/pubsub/gochannel"
 )
 
 func TestFanIn(t *testing.T) {

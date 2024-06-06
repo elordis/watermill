@@ -7,8 +7,8 @@ import (
 	"github.com/lithammer/shortuuid/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/message"
 )
 
 // Config holds the GoChannel Pub/Sub's configuration options.

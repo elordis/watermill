@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/subscriber"
+	"github.com/elordis/watermill/message"
+	"github.com/elordis/watermill/message/subscriber"
 )
 
 // BenchmarkPubSubConstructor is a function that creates a Publisher and Subscriber to be used for benchmarks.

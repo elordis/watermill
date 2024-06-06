@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 

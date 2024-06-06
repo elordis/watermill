@@ -4,10 +4,10 @@ import (
 	"context"
 	stdErrors "errors"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/elordis/watermill"
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/message"
 )
 
 type CommandBusConfig struct {

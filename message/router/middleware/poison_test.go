@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message/subscriber"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/message/subscriber"
+	"github.com/elordis/watermill/pubsub/gochannel"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/message"
 
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
+	"github.com/elordis/watermill/message/router/middleware"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

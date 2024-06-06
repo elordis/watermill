@@ -1,8 +1,8 @@
 package metrics
 
 import (
-	"github.com/ThreeDotsLabs/watermill/internal"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/internal"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 )

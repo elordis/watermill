@@ -2,10 +2,10 @@ package subscriber
 
 import (
 	"context"
-	"sync"
 	go_errors "errors"
+	"sync"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 

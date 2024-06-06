@@ -3,7 +3,7 @@ package middleware
 import (
 	go_errors "errors"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package forwarder
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 

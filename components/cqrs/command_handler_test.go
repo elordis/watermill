@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
+	"github.com/elordis/watermill/components/cqrs"
 	"github.com/stretchr/testify/assert"
 )
 

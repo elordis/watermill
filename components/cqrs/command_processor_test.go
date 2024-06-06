@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/elordis/watermill"
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/components/cqrs"
+	"github.com/elordis/watermill/message"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

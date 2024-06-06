@@ -3,8 +3,8 @@ package requestreply
 import (
 	"context"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill/components/cqrs"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 

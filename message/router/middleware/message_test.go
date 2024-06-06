@@ -1,8 +1,8 @@
 package middleware_test
 
 import (
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/elordis/watermill"
+	"github.com/elordis/watermill/message"
 	"github.com/pkg/errors"
 )
 
